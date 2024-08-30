@@ -1,0 +1,25 @@
+{
+  "name": "maksad",
+  "version": "1.0.0",
+  "description": "A nods js pacage Json",
+  "main": "index.js",
+  "scripts": {
+    "test": "rj",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/rj7075/Nodejs.git)"
+  },
+  "keywords": [
+    "Node",
+    "pacage",
+    "Json"
+  ],
+  "author": "Ranjeet Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "simple-node-logger": "^21.8.12"
+  }
+}
