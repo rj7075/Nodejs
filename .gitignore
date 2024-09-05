@@ -1,3 +1,2 @@
-/node_modules
+node_modules/
 
-# gitignore files are used to ignore the files that you don't want to push on git hub

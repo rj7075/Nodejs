@@ -1,0 +1,1 @@
+A simple file creation in a looop
