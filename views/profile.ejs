@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+</head>
+<body>
+
+    <%- include('Comman/Header');%> 
+    <h1>Profile Page</h1>
+    <br>
+    <h1>welcome <%= user.name %></h1>
+    <br>
+    <h1>Your email id is: <%= user.email %></h1>
+    <br>
+    <h1>you have completed your b.tech in <%= user.batch %></h1>
+    <ul>
+        <%  user.skils.forEach((item)=>{ %>
+            <li><%= item %></li>
+
+        <% })%>
+    </ul>
+     <br>
+    <ol>
+        <% user.interest.forEach((item)=> {
+            %>
+            <p><li><%= item %></li></p>   
+            <%
+        })%>
+    </ol>
+</body>
+</html>
